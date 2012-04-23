@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="QuickCrawlWeb1">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src_core"/>
+        <dependent-module archiveName="QuickCrawlGenerator.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/QuickCrawlGenerator/QuickCrawlGenerator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/QuickCrawlWeb1/build/classes"/>
+        <property name="context-root" value="QuickCrawl"/>
+    </wb-module>
+</project-modules>
