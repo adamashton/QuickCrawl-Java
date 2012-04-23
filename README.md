@@ -11,13 +11,13 @@ How does it work?
 
 1. Given 2 geo-locations (a, b) it will first create an area where a and b become the 2 opposite corners to form a rectangle.
 
-2. This rectangular space is the area we look for pubs and clubs. Using Yelp & Qype as data sources it downloads all the pubs and bars in the area.
+2. This rectangular space is the area we look for pubs and clubs (places). Using Yelp & Qype as data sources it downloads all the places in the area.
 
-3. The duplicate events are aggregated together so as to not offer duplicate pubs/clubs.
+3. The duplicate places are aggregated together so as to not offer duplicate places.
 
-4. Crappy pubs and ones that aren't reviewed are removed, if possible.
+4. Crappy places and ones that aren't reviewed are removed, if possible.
 
-5. Using a mixture of distance travelled, pub reviews & number of reviews [bayes] it will generate an optimal crawl.
+5. Using a mixture of distance travelled, reviews & number of reviews [bayes] it will generate an optimal crawl.
 
 6. Google maps displays the pub crawl.
 
